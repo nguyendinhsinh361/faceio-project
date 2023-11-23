@@ -16,8 +16,8 @@ const IntroPost = ({post}) => {
       />
       <div>
         <h4 className="text-red-500">{post.tag}</h4>
-        <h2 className="text-[23px] font-bold mt-5">{post.title}</h2>
-        <h4 className="line-clamp-6 text-gray-400 mt-5">{post.desc}</h4>
+        <h2 className="text-[23px] font-bold">{post.title}</h2>
+        <h4 className="line-clamp-6 text-gray-400">{post.desc}</h4>
         <div className="flex items-center mt-5">
           <img src={logo} className="w-[50px] rounded-full" />
           <div className="ml-3">
