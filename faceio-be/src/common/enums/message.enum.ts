@@ -12,4 +12,8 @@ export enum MessageEnum {
   GET_PROFILE_SUCCESSFULLY = 'Get profile successfully.',
   GET_ALL_USERS_SUCCESSFULLY = 'Get all users successfully.',
   UPDATE_USER_SUCCESSFULLY = 'Update user successfully.',
+  GET_ALL_STAFFS_SUCCESSFULLY = 'Get all staffs successfully.',
+  GET_STAFF_DETAIL_SUCCESSFULLY = 'Get staff detail successfully.',
+  CREATE_STAFF_SUCCESSFULLY = 'Create staff info successfully.',
+  UPDATE_STAFF_SUCCESSFULLY = 'Update staff info successfully.',
 }

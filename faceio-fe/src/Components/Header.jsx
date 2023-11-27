@@ -6,15 +6,15 @@ const Header = () => {
   return (
     <div className="flex justify-between items-center">
       <Logo />
-      <ul className="hidden md:flex gap-4 md:gap-14">
+      <ul className="hidden md:flex gap-4 md:gap-16" style={{color: "black"}}>
         <li
           className="hover:font-bold cursor-pointer"
           onClick={() => navigate("/")}
         >
-          Home
+          HOME
         </li>
-        <li className="hover:font-bold cursor-pointer">About Us</li>
-        <li className="hover:font-bold cursor-pointer">Contact Us</li>
+        <li className="hover:font-bold cursor-pointer">ABOUT US</li>
+        <li className="hover:font-bold cursor-pointer">CONTACT US</li>
       </ul>
       <RegisterFaceIO />
     </div>

@@ -67,11 +67,11 @@ const Search = ({selectedTag}) => {
               selectedTag(item.name);
             }}
             className={`${
-              index == activeIndex ? "bg-red-500 text-white" : null
+              index == activeIndex ? "bg-green-500 text-white" : null
             } p-1.5 pb-2 rounded-sm
                 md:rounded-full cursor-pointer md:px-5
                 hover:scale-110 hover:border-[1px] 
-                border-red-500 transition-all duration-100 ease-in-out`}
+                border-green-500 transition-all duration-100 ease-in-out`}
           >
             <li className="line-clamp-1" style={{color: "black"}}>
               {item.name}
